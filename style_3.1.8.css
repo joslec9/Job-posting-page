@@ -1,0 +1,108 @@
+/* main nav menu global styles*/
+.header_menu_res ul, .header_menu_res ul ul, .header_menu_res ul ul ul { float:left; margin:0; padding:0; list-style:none;}
+.header_menu_res ul li.first { padding-left:0; }
+.header_menu_res ul li a { text-decoration:none; font-size:13px; font-weight:bold; text-transform:uppercase; }
+.header_menu_res ul li.sfHover a.sf-with-ul {z-index:999; -khtml-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+ul.header_menu_res ul li.sfHover div { display: block;}
+.header_menu_res ul { z-index:99; margin:0; padding:0; list-style:none; line-height:1; }
+.header_menu_res ul a  { padding:5px 10px;position:relative; z-index:100; display:block;line-height:18px; text-decoration:none; }
+.header_menu_res ul li:hover a { -khtml-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.header_menu_res ul li.current_page_item, .header_menu_res ul li.current_page_parent a { -khtml-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.header_menu_res ul li li.current_page_item {  }
+.header_menu_res ul li.current_page_item a { -khtml-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.header_menu_res ul.children li a { font-weight:normal; }
+.header_menu_res ul li  { float:left; margin:0 3px; width: auto; font:normal 14px/1.2em Arial, Helvetica, sans-serif;z-index:999;}
+.header_menu_res ul li a.sf-with-ul {padding-right:20px; }
+.header_menu_res ul li ul li a.sf-with-ul {padding-right:12px; }
+.header_menu_res ul .sf-sub-indicator {display:block;height:10px;overflow:hidden;position:absolute;right:0.4em;text-indent:-999em;top:0.9em;width:10px;}
+.header_menu_res ul li ul .sf-sub-indicator { overflow:hidden;right:0;}
+.header_menu_res ul li ul  { margin-top:-2px; position: absolute; left: -999em; width: 180px;  z-index:998; -khtml-border-radius: 0 3px 3px 3px; -moz-border-radius: 0 3px 3px 3px; -webkit-border-radius: 0 3px 3px 3px; border-radius: 0 3px 3px 3px;}
+
+.header_menu_res ul.menu ul { z-index:998; -khtml-border-radius: 0 6px 6px 6px; -moz-border-radius: 0 6px 6px 6px; -webkit-border-radius: 0 6px 6px 6px; border-radius: 0 6px 6px 6px; }
+.header_menu_res ul.menu ul ul.children { z-index:998; -khtml-border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+.header_menu_res ul.menu li ul li  { margin:0; padding:0px; text-transform:none; text-transform:none !important; }
+.header_menu_res ul.menu li ul li a  { padding:7px 12px; width:156px; font-size:12px; font-weight:normal; line-height:18px; }
+.header_menu_res ul.menu li ul li a.sf-with-ul:hover { }
+.header_menu_res ul.menu li ul li a:hover  { -khtml-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.header_menu_res ul.menu li ul ul  { margin:-32px 0 0 181px; -khtml-border-radius: 0 3px 3px 3px; -moz-border-radius: 0 3px 3px 3px; -webkit-border-radius: 0 3px 3px 3px; border-radius: 0 3px 3px 3px;}
+.header_menu_res ul li:hover, .header_menu_res ul li.hover  { position:static; }
+.header_menu_res ul li:hover ul ul, .header_menu_res ul li.sfhover ul ul,
+.header_menu_res ul li:hover ul ul ul, .header_menu_res ul li.sfhover ul ul ul,
+.header_menu_res ul li:hover ul ul ul ul, .header_menu_res ul li.sfhover ul ul ul ul { left:-999em; }
+.header_menu_res ul li:hover ul, .header_menu_res ul li.sfhover ul,
+.header_menu_res ul li li:hover ul, .header_menu_res ul li li.sfhover ul,
+.header_menu_res ul li li li:hover ul, .header_menu_res ul li li li.sfhover ul,
+.header_menu_res ul li li li li:hover ul, .header_menu_res ul li li li li.sfhover ul  { left:auto; }
+.header_menu_res ul li img.dropdown { padding:2px 0 2px 8px; border:none;}
+.header_menu_res ul.sub-menu { width: auto; }
+.header_menu_res ul.sub-menu li { clear: left; margin: 8px 4px 0; }
+
+/* main nav menu superfish styles */
+#nav li.sfHover a.sf-with-ul { z-index:999; -khtml-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+ul#nav li.sfHover div { display: block;}
+#nav li a.sf-with-ul {padding-right:20px; }
+#nav li ul li a.sf-with-ul {padding-right:12px; }
+#nav .sf-sub-indicator {display:block;height:10px;overflow:hidden;position:absolute;right:0.4em;text-indent:-999em;top:0.9em;width:10px;}
+#nav li ul .sf-sub-indicator {overflow:hidden;right:0;}
+#nav li ul li a.sf-with-ul { }
+#nav li:hover ul ul, #nav li.sfhover ul ul,
+#nav li:hover ul ul ul, #nav li.sfhover ul ul ul,
+#nav li:hover ul ul ul ul, #nav li.sfhover ul ul ul ul { left:-999em; }
+#nav li:hover ul, #nav li.sfhover ul,
+#nav li li:hover ul, #nav li li.sfhover ul,
+#nav li li li:hover ul, #nav li li li.sfhover ul,
+#nav li li li li:hover ul, #nav li li li li.sfhover ul  { left:auto; }
+
+div#adv_categories .catcol ul li.maincat  { margin:0px;  }
+div#adv_categories .catcol ul li.cat-item { margin-left:4px; }
+
+
+
+
+/* COLOR SCHEME ---------------------- */
+
+/* main nav menu global styles*/
+.header_menu_res ul li.first { background:none;}
+.header_menu_res ul li a { color:#a3a3a3; }
+.header_menu_res ul li:hover a { color:#000; background: #fff;text-shadow:0 1px 0 #fff;}
+.header_menu_res ul li.sfHover a.sf-with-ul { color:#000; background:#fff;text-shadow:0 1px 0 #fff; -moz-box-shadow:  0px -1px 3px #d5d5d5;
+-webkit-box-shadow:  0px -1px 3px #d5d5d5; box-shadow: 0px -2px 3px #d5d5d5;  }
+.header_menu_res ul a  { color:#a3a3a3; }
+.header_menu_res ul li:hover a { background:#f4f4f4;  }
+.header_menu_res ul li.current_page_item, .header_menu_res ul li.current_page_parent a { color:#555; background:#f4f4f4; text-shadow:0 1px 0 #fff; }
+.header_menu_res ul li li.current_page_item { background:none; }
+.header_menu_res ul li.current_page_item a { color:#000; }
+.header_menu_res ul.children li a { background:#fff; border-top: none; border-left: none; }
+.header_menu_res ul .sf-sub-indicator {background:url(file:///F|/xampp/htdocs/jefferson/wp-content/themes/images/arrow-superfish.png) no-repeat scroll 0 0 transparent;  }
+.header_menu_res ul li ul .sf-sub-indicator {background:url(file:///F|/xampp/htdocs/jefferson/wp-content/themes/images/arrow-superfish-right.png) no-repeat;overflow:hidden;right:0;}
+.header_menu_res ul li ul  { background: #fff; border: 1px solid #dbdbdb; border-width:1px 1px 0;  }
+
+.header_menu_res ul.menu ul { background-color: #FFF; border:1px solid #eee; border-top:none; -moz-box-shadow: 1px 1px 5px #b7b7b7; -webkit-box-shadow: 1px 1px 5px #b7b7b7; box-shadow: 1px 1px 5px #b7b7b7;}
+.header_menu_res ul.menu ul ul.children { background-color: #FFF; border:1px solid #eee; border-top:none; -moz-box-shadow: 1px 1px 5px #b7b7b7; -webkit-box-shadow: 1px 1px 5px #b7b7b7; box-shadow: 1px 1px 5px #b7b7b7;}
+.header_menu_res ul.menu li ul li a  { color:#555; text-shadow:0 1px 0 #fff;  }
+.header_menu_res ul.menu li ul li a.sf-with-ul:hover { background: #f4f4f4;}
+.header_menu_res ul.menu li ul li a:hover  { background: #f4f4f4; }
+.header_menu_res ul li:hover, .header_menu_res ul li.hover  { color: #555555; }
+
+
+/* main nav menu superfish styles */
+#nav li.sfHover a.sf-with-ul { color:#555555; background:#fff; text-shadow:0 1px 0 #fff;   }
+#nav .sf-sub-indicator {background:url(file:///F|/xampp/htdocs/jefferson/wp-content/themes/images/arrow-superfish.png) no-repeat scroll 0 0 transparent;  }
+#nav li ul .sf-sub-indicator {background:url(file:///F|/xampp/htdocs/jefferson/wp-content/themes/images/arrow-superfish-right.png) no-repeat; }
+
+/* category menu */
+div#adv_categories, .header_menu_res ul.sub-menu { background:#fff; border:1px solid #eee; border-top:none;
+-moz-box-shadow: 1px 1px 5px #b7b7b7; -webkit-box-shadow: 1px 1px 5px #b7b7b7; box-shadow: 1px 1px 5px #b7b7b7;}
+div#adv_categories ul { background:none;border:none;}
+div#adv_categories ul li {border:none; text-shadow:0 1px 0 #FFFFFF; color:#000; }
+div#adv_categories ul li a:hover  { background: #f4f4f4;}
+div#adv_categories .catcol { border-left:1px dotted #bdbdbd;  }
+div#adv_categories .catcol ul li a { color:#545454; background: none;}
+div#adv_categories .catcol ul li.maincat { background: #fff; color:#333; border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3 !important; }
+div#adv_categories .catcol ul li.maincat a { background: none; color:#000; }
+div#adv_categories .catcol ul li.maincat a:hover {background:none; }
+div#adv_categories .catcol ul li.cat-item { background:transparent url(file:///F|/xampp/htdocs/jefferson/wp-content/themes/JeffersonMutualFinancial/images/bullet-grey.png) no-repeat scroll 7px 11px; }
+div#adv_categories .catcol ul li.cat-item:hover {background-color:#f4f4f4; color:#000; background-image:none; }
+div#adv_categories .catcol ul li.cat-item:hover a { color:#000; }
+div#adv_categories .catcol ul li.cat-item a:hover { background-color:#f4f4f4; color:#000;}
+div#adv_categories .first { border-left:none;}
